@@ -8,7 +8,7 @@ Starting from a small parameterized quantum circuit (7 parameterized gates and 3
 
 The goal is to maximize the probability of winning the CHSH game and this is done alternating two phases: the first one is the simulation of the circuit, which leads us to a performance metric (the #wins/#runs ratio). This metric guides the optimizer in the second phase, searching for the set of parameters that maximize this ratio.
 
-You can read my [blog post](https://w00zie.github.io/post/bell) for a few more details.
+You can read my [blog post](https://w00zie.github.io/post/bell) for a few more details or look at my [slides](slides.pdf).
 
 **Remark**: running the notebook multiple times will lead to (slightly) different results, due to the fact that I've not set a random seed. 
 
