@@ -1,4 +1,4 @@
-# Winning at CHSH with Parameterized Quantum Circuits and Bayesian Optimization
+#Winning at CHSH with Parameterized Quantum Circuits and Bayesian Optimization
 
 In this experiment I've tried to "win" a formulation of the CHSH game [1] in the formulation proposed by Mark Wilde [2] (*Sec. 3.6.2 : Entanglement in the CHSH Game*) and Ronald de Wolf [3] (*Sec. 15.2: CHSH: Clauser-Horne-Shimony-Holt*). 
 
@@ -9,10 +9,6 @@ Starting from a small parameterized quantum circuit (7 parameterized gates and 3
 The goal is to maximize the probability of winning the CHSH game and this is done alternating two phases: the first one is the simulation of the circuit, which leads us to a performance metric (the #wins/#runs ratio). This metric guides the optimizer in the second phase, searching for the set of parameters that maximize this ratio.
 
 You can read my [blog post](https://w00zie.github.io/post/bell) for a few more details or look at my [slides](slides.pdf).
-
-**Remark**: running the notebook multiple times will lead to (slightly) different results, due to the fact that I've not set a random seed. 
-
-If you want to exactly reproduce the numbers you'll have to fix one yourself.
 
 ---
 
